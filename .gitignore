@@ -10,3 +10,12 @@ result
 website/node_modules/
 package-lock.json
 node_modules/
+
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+
+/build
+
+.tox/

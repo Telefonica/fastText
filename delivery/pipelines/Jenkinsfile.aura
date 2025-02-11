@@ -1,0 +1,12 @@
+@Library(['aura']) _
+
+import org.aura.models.*
+
+auraPipeline {
+    artifacts = [
+        new AuraLibrary(name: 'fasttext', path: '.')
+    ]
+    language = 'python'
+    slave = 'aura-python9-ubuntu22'
+    pypiRepositoryName = 'pypi-aura-fasttext'
+}
