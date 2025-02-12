@@ -19,3 +19,7 @@ eggs/
 /build
 
 .tox/
+
+.idea/
+
+*.so
