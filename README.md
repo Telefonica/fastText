@@ -3,6 +3,10 @@
 
 [![CircleCI](https://circleci.com/gh/facebookresearch/fastText/tree/master.svg?style=svg)](https://circleci.com/gh/facebookresearch/fastText/tree/master)
 
+
+Hola juan
+
+
 ## Table of contents
 
 * [Resources](#resources)
