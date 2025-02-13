@@ -23,3 +23,5 @@ eggs/
 .idea/
 
 *.so
+
+/dist

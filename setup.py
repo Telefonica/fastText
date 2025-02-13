@@ -21,7 +21,6 @@ import subprocess
 import platform
 import io
 
-__version__ = "0.9.2"
 FASTTEXT_SRC = "src"
 
 # Based on https://github.com/pybind/python_example
@@ -167,10 +166,8 @@ def _get_readme():
     with io.open("python/README.rst", encoding="utf-8") as fid:
         return fid.read()
 
-
 setup(
     name="fasttext",
-    version=__version__,
     author="Onur Celebi",
     author_email="celebio@fb.com",
     description="fasttext Python bindings",
