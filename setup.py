@@ -167,7 +167,7 @@ def _get_readme():
         return fid.read()
 
 setup(
-    name="fasttext",
+    name="aura_fasttext",
     author="Onur Celebi",
     author_email="celebio@fb.com",
     description="fasttext Python bindings",
