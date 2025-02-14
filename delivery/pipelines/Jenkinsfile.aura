@@ -4,7 +4,7 @@ import org.aura.models.*
 
 auraPipeline {
     artifacts = [
-        new AuraLibrary(name: 'fasttext', path: '.')
+        new AuraLibrary(name: 'aura_fasttext', path: '.')
     ]
     language = 'python'
     slave = 'aura-python9-ubuntu22'
